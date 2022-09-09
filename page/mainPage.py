@@ -1,0 +1,9 @@
+from selene.support import by
+from selene.support.jquery_style_selectors import ss, s
+
+
+userNameLocator = s(by.name('user-name'))
+userPasswordLocator = s(by.name('password'))
+loginBtnLocator = s(by.name('login-button'))
+
+
